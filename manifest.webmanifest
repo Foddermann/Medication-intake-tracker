@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Medikamente · Tagesnachweis",
+  "short_name": "Medikamente",
+  "description": "Tägliche Bestätigung der Medikamenteneinnahme mit Kalender und Statistik. Offline nutzbar.",
+  "lang": "de-DE",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f2e9",
+  "theme_color": "#f5f2e9",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

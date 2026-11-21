@@ -1,0 +1,17 @@
+MEDIKAMENTEN-TRACKER – OFFLINE-WEB-APP
+
+WICHTIG: Eine lokale HTML-Datei direkt in der Dateien-App zu öffnen, reicht nicht.
+Die Dateien müssen EINMALIG als Website über HTTPS bereitgestellt werden.
+
+1. Alle Dateien (nicht nur index.html) gemeinsam auf einen statischen HTTPS-Webhost hochladen, z. B. GitHub Pages.
+   Vorsicht: Öffentliche GitHub-Pages-Projekte veröffentlichen die APP-DATEIEN, nicht die lokal im Browser gespeicherten Medikamenteneinträge. Keine persönlichen Daten in den Programmdateien hinterlegen.
+2. Auf dem iPhone die HTTPS-Adresse der index.html in Safari öffnen.
+3. Warten, bis unter „Offline-Betrieb“ die Einrichtung bestätigt ist.
+4. Safari: Teilen → Zum Home-Bildschirm hinzufügen → Als Web-App öffnen → Hinzufügen.
+5. Die App über das Home-Bildschirm-Symbol öffnen, Flugmodus einschalten und erneut öffnen, um den Offlinebetrieb zu testen.
+
+Daten: Haken, Kalender und Statistik bleiben lokal auf dem iPhone. Regelmäßig in der App „Sicherung erstellen“ antippen und Sicherung separat aufbewahren. Alte Einträge einer früher verwendeten lokalen HTML-Datei werden nicht automatisch übernommen; bitte JSON-Sicherung exportieren und in die neue App importieren.
+
+ERINNERUNGEN: Die App verschickt KEINE selbständigen zeitgesteuerten Hintergrund-Benachrichtigungen. Bestehende ChatGPT-Erinnerungen 08:30 und 10:00 sind davon unabhängig und lassen sich anhand des Hakens nicht automatisch abbrechen. Für hakenabhängige Hintergrund-Erinnerungen wäre eine zusätzliche Benachrichtigungsarchitektur erforderlich; reine Offline-PWA nicht zuverlässig geeignet.
+
+Bei Offline-Problemen: Prüfen, ob die App zuerst vollständig online geladen wurde und sich der Offline-Status meldete. Safari-Website-Daten und App-Speicher nicht löschen.
